@@ -1,0 +1,30 @@
+
+.experience-box{
+  color: rgb(85, 85, 85);
+  padding-top: 5px;
+}
+.experience-company {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.experience-tech{
+  padding-bottom: 5px;
+}
+
+.experience-title {
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+  font-size: 15px;
+  padding-bottom: 5px;
+  /* font-style: italic; */
+}
+
+.experience-details {
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+  font-size: 12px;
+  padding-bottom: 5px;
+  font-stretch: extra-condensed;
+  text-align: justify
+}

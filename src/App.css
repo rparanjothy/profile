@@ -1,0 +1,40 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h2{
+  color: rgb(202, 202, 202);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills {
+  /* border: salmon 1px solid; */
+  justify-items: center;
+  padding-top: 10px;
+}
+
+.experience {
+  /* border: salmon 1px solid; */
+  justify-items: center;
+  width: 80%;
+}
+
+.summary{
+  color: rgb(85, 85, 85);
+  padding-top: 5px;
+}
