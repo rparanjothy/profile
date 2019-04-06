@@ -39,6 +39,8 @@
   /* padding-bottom: 5px; */
   /* font-stretch: extra-condensed; */
   text-align: justify;
+  /* height: 30vh; */
+  /* overflow-y: auto; */
 }
 
 img {
@@ -57,7 +59,7 @@ img {
   flex-direction: row;
   background: rgba(255, 255, 255,.8);
   height:60px;
-  width: 1000px;
+  min-width: 1065px;
   position: absolute; 
   /* position:fixed; */
 }

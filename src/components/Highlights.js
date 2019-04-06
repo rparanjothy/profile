@@ -19,7 +19,8 @@ class Highlights extends Component {
           "C#",
           "UNIX Shell Scripting",
           "Data Analytics",
-          "SQL / NoSQL / PLSQL",
+          "SQL / NoSQL (Oracle, DB2, Cassandra, MongoDB, Postgres, Redis, MySQL) ",
+          "PL/SQL",
           "Microservices Architecture",
           "Image Processing",
           "ETL",
@@ -32,7 +33,9 @@ class Highlights extends Component {
           "Software Quality",
           "Reliability Engineering",
           "Automation",
-          "SpringBoot"
+          "SpringBoot",
+          "Data Engineering"
+          
         ]
       },
       () => console.log("skills loaded")

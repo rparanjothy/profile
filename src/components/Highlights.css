@@ -1,11 +1,10 @@
-
-.highlight-info{
-  padding-top:5px;
-  display:flex;
+.highlight-info {
+  padding-top: 5px;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-bottom:10px;
-
+  padding-bottom: 10px;
+  justify-content: center;
 }
 
 /* .skill-list{
@@ -14,7 +13,7 @@
  flex-grow: inherit
 } */
 
-.skill-item{
+.skill-item {
   font-size: small;
   color: rgb(51, 49, 49);
   font-stretch: expanded;
@@ -22,5 +21,3 @@
   word-wrap: normal;
   /* padding-left: 10px; */
 }
-
-
