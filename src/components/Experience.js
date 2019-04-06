@@ -10,7 +10,7 @@ class Experience extends Component {
   render() {
     return (
       <div className="experience-box">
-        <div className="company-info" >
+        <div className="company-info container" >
           <div className="experience-logo">
             <img src={this.props.logo} />
            

@@ -39,6 +39,7 @@
   /* padding-bottom: 5px; */
   /* font-stretch: extra-condensed; */
   text-align: justify;
+  width: 90%;
   /* height: 30vh; */
   /* overflow-y: auto; */
 }
@@ -57,9 +58,10 @@ img {
 .company-info {
   display: flex;
   flex-direction: row;
-  background: rgba(255, 255, 255,.8);
+  background: rgba(255, 255, 255,.9);
   height:60px;
-  min-width: 1065px;
+  /* width: 80; */
+  /* width: 40vh;  */
   position: absolute; 
   /* position:fixed; */
 }
