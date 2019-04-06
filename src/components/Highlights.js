@@ -19,7 +19,7 @@ class Highlights extends Component {
           "C#",
           "UNIX Shell Scripting",
           "Data Analytics",
-          "SQL / NoSQL (Oracle, DB2, Cassandra, MongoDB, Postgres, Redis, MySQL) ",
+          "SQL/NoSQL (Oracle, DB2, Cassandra, MongoDB, Postgres, Redis, MySQL)",
           "PL/SQL",
           "Microservices Architecture",
           "Image Processing",
