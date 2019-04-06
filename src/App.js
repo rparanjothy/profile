@@ -56,7 +56,7 @@ class App extends Component {
 
           <div className="experience container">
             <Experience
-              tech="Java,Python,Google Cloud(GCP),Cloud Foundry,Cloud Functions,Pub/Sub,Google DataFlows,Apache Beam,Docker,SpringBoot,NodeJS,React,NGINX,DB2,Concourse,Analytical SQLs,Cassandra,Redis,TWS,Ab-Initio,JIRA,Pivotal Tracker"
+              tech="Java,Python,Google Cloud(GCP),Cloud Foundry,Cloud Functions,Postgres,Pub/Sub,Google DataFlows,Apache Beam,Docker,SpringBoot,NodeJS,React,NGINX,DB2,Concourse,Analytical SQLs,Cassandra,Redis,TWS,Ab-Initio,JIRA,Pivotal Tracker"
               company="The Home Depot"
               logo={thdlogo}
               title="Technical Lead | March 2013 – current"
