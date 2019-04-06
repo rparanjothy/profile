@@ -39,17 +39,20 @@ class App extends Component {
           <NavbarBrand style={{ fontSize: "30px" }}>
             <big>R</big>amkumar <big>P</big>aranjothy
           </NavbarBrand>
-          <NavbarBrand style={{ fontSize: "18px" }}>
-           Technical Architect | Lead Data Engineer | Lead Full-Stack Developer | Project Manager
-          </NavbarBrand>
+          
+          <div className="App-header container" style={{textAlign:"left"}}>
+            Technical Architect | Lead Data Engineer | Lead Full-Stack Developer
+            | Project Manager
+          </div>
         </Navbar>
         <div className="summary">
           Skilled IT professional with 14+ years of progressive experience in
-          driving and delivering medium to large scale IT projects. 
-          Experienced in planning, executing and delivering mission critial, high availability, customer facing web applications and APIs.
+          driving and delivering medium to large scale IT projects. Experienced
+          in planning, executing and delivering mission critial, high
+          availability, customer facing web applications and APIs.
         </div>
         <div className="profile">
-          <Highlights className="container"/>
+          <Highlights className="container" />
 
           <div className="experience container">
             <Experience
