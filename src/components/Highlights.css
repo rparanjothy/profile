@@ -3,11 +3,11 @@
   padding-top:5px
 } */
 
-.skill-list{
+/* .skill-list{
  display: flex;
  flex-direction: column;
  flex-grow: inherit
-}
+} */
 
 .skill-item{
   font-size: smaller;
@@ -17,4 +17,5 @@
   word-wrap: normal;
   padding-left: 10px;
 }
+
 

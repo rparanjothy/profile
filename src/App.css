@@ -9,10 +9,15 @@
   color: white;
   position: fixed;
   width: 80%;
+  padding-bottom: 20px;
+
 }
 
 .App-header h2 {
+  padding-top: 10px;
   color: rgb(202, 202, 202);
+  padding-bottom: 10px;
+
 }
 
 .App-link {
@@ -29,6 +34,13 @@
   justify-items: center;
   padding-top: 5px;
   position: fixed;
+  overflow-y:auto;
+  /* overflow-x:hidden; */
+  height: 80vh;
+  padding-bottom: 50px;
+
+
+  
 }
 
 .experience {
@@ -38,6 +50,7 @@
 
 .summary {
   color: rgb(85, 85, 85);
-  padding-top: 80px;
+  padding-top: 20vh;
   padding-bottom: 10px;
+ 
 }
