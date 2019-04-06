@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./Highlights.css";
+import { Badge } from "reactstrap";
 
 class Highlights extends Component {
- 
-  componentWillMount(){
+  componentWillMount() {
     this.setState(
       {
         skills: [
@@ -14,25 +14,25 @@ class Highlights extends Component {
           "Distributed Architecture",
           "Large Scale Data Pipelines",
           "Java",
-          "Python",
+          "Python (pandas,itertools,numpy,scipy,pillow,Flask,scikit-learn)",
           "NodeJS",
           "C#",
           "UNIX Shell Scripting",
           "Data Analytics",
           "SQL / NoSQL / PLSQL",
           "Microservices Architecture",
-          "pandas",
           "Image Processing",
           "ETL",
           "Agile Methodologies",
           "Leadership",
           "Project Management",
-          "Technical Communication",
+          "Technical Writing",
           "Risk Mitigation",
           "Dev Ops / Web Ops",
           "Software Quality",
-          "Reliability Engineering", 
-         "Automation"
+          "Reliability Engineering",
+          "Automation",
+          "SpringBoot"
         ]
       },
       () => console.log("skills loaded")
@@ -42,8 +42,12 @@ class Highlights extends Component {
     return (
       <div className="highlight-info">
         {this.state.skills
-          ? this.state.skills.map(skill => (
-              <div className="skill-item">{skill}</div>
+          ? this.state.skills.sort().map(skill => (
+              <div className="skill-item">
+                <h5>
+                  <Badge color="none">{skill.trim()}</Badge>|
+                </h5>
+              </div>
             ))
           : null}
       </div>

@@ -2,6 +2,8 @@
 .experience-box{
   color: rgb(85, 85, 85);
   padding-top: 5px;
+  /* margin-left: 15%; */
+  /* margin-right: 5%; */
 }
 .experience-company {
   font-size: 20px;
@@ -23,9 +25,9 @@
 .experience-details {
   /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif; */
-  font-size: 12px;
-  padding-bottom: 5px;
-  font-stretch: extra-condensed;
+  font-size: small;
+  /* padding-bottom: 5px; */
+  /* font-stretch: extra-condensed; */
   text-align: justify
 }
 

@@ -1,7 +1,12 @@
-/* 
+
 .highlight-info{
-  padding-top:5px
-} */
+  padding-top:5px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom:10px;
+
+}
 
 /* .skill-list{
  display: flex;
@@ -10,12 +15,12 @@
 } */
 
 .skill-item{
-  font-size: smaller;
+  font-size: small;
   color: rgb(51, 49, 49);
   font-stretch: expanded;
   padding-bottom: 2px;
   word-wrap: normal;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 

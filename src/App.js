@@ -7,32 +7,51 @@ import thdlogo from "./thd.svg";
 import gsklogo from "./logo-gsk.png";
 import pepsilogo from "./pepsico-logo.jpg";
 import wiprologo from "./wipro-logo.png";
+import {
+  Collapse,
+  Navbar,
+  Button,
+  NavbarBrand,
+  Nav,
+  CardBody,
+  Card
+} from "reactstrap";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+    this.setState(state => ({ collapse: !state.collapse }));
+  }
   render() {
     return (
       <div className="App container">
-        <header className="App-header container">
-          <h2>Ramkumar Paranjothy</h2>
-          <Contact />
-        </header>
-        <div>
-          <div className="summary">
-            Skilled IT professional with 14+ years of progressive experience in
-            driving and delivering medium to large scale IT projects. Expertise
-            in Cloud Computing (Google Cloud / PCF), Container Technologies,
-            Object Oriented Programming, Full Stack Development using MERN
-            stack, Data Analytics (Python), API development (Java / Python /
-            NodeJS / C#), Data Engineering, SQL / NoSQL, Data Pipelines, UNIX
-            Shell-Scripting, Program/Project Management, Quality Engineering,
-            DevOps/Reliability Engineering, Automation and Tooling.
-          </div>
+        <Navbar color="light" dark className="App-header">
+          <NavbarBrand style={{ fontSize: "30px" }}>
+            <big>R</big>amkumar <big>P</big>aranjothy
+          </NavbarBrand>
+          <NavbarBrand style={{ fontSize: "18px" }}>
+           Technical Architect | Lead Data Engineer | Lead Full-Stack Developer | Project Manager
+          </NavbarBrand>
+        </Navbar>
+        <div className="summary">
+          Skilled IT professional with 14+ years of progressive experience in
+          driving and delivering medium to large scale IT projects. 
+          Experienced in planning, executing and delivering mission critial, high availability, customer facing web applications and APIs.
         </div>
         <div className="profile">
-          <div className="skills" style={{ width: "20%" }}>
-            <Highlights />
-          </div>
-          <div className="experience container" style={{ marginLeft: "25%" }}>
+          <Highlights className="container"/>
+
+          <div className="experience container">
             <Experience
               tech="Java,Python,Google Cloud(GCP),Cloud Foundry,Cloud Functions,Pub/Sub,Google DataFlows,Apache Beam,Docker,SpringBoot,NodeJS,React,NGINX,DB2,Concourse,Analytical SQLs,Cassandra,Redis,TWS,Ab-Initio,JIRA,Pivotal Tracker"
               company="The Home Depot"

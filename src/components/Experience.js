@@ -27,7 +27,7 @@ class Experience extends Component {
             ? this.props.tech.split(",").sort().map(t => (
                 <Badge
                   pill
-                  color="primary"
+                  color="dark"
                   style={{ marginRight: "5px", fontSize: "12px" }}
                 >
                   {t}
@@ -38,7 +38,7 @@ class Experience extends Component {
         <div className="experience-details">
           {this.props.details.split("• ").map(e => (
             // <div style={{ paddingBottom: "1px" }}>{e ? "- " + e : null}</div>
-            <div style={{ paddingBottom: "5px",paddingLeft:"2px" }}>{e ? e : null}</div>
+            <div className="experience-bullet" style={{ paddingBottom: "8px",paddingLeft:"2px" }}>{e ? e : null}</div>
           ))}
         </div>
         <hr />
