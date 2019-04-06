@@ -118,7 +118,7 @@ database to any QA/Dev database to eliminate 4-day full feed processing in lower
             />
             <Experience
               tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
-              company="PepsiCo-BIS, Valhalla, New York"
+              company="PepsiCo-BIS"
               title="Technical Lead | October 2008 – December 2010"
               logo={pepsilogo}
               details="
@@ -165,7 +165,7 @@ using PowerBuilder 9, PL/SQL Objects, UNIX Shell Scripts and INFORMATICA.
             />
             <Experience
               tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
-              company="Wipro Technologies (PepsiCo)"
+              company="Wipro Technologies"
               logo={wiprologo}
               title="Senior Project Engineer |  June 2005 – October 2008"
               details="• Designed, developed and unit tested production break-fix in PowerBuilder 9 and Oracle PL/SQL.
