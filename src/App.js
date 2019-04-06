@@ -3,28 +3,40 @@ import "./App.css";
 import Contact from "./components/Contact";
 import Highlights from "./components/Highlights";
 import Experience from "./components/Experience";
+import thdlogo from "./thd.svg";
+import gsklogo from "./logo-gsk.png";
+import pepsilogo from "./pepsico-logo.jpg";
+import wiprologo from "./wipro-logo.png";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App container">
         <header className="App-header">
           <h2>Ramkumar Paranjothy</h2>
           <Contact />
         </header>
-<div>
-  <div className="summary" style={{padding:"20px"}}>
-  I am highly talented and skilled IT professional with 14+ years of progressive experience in driving and delivering medium to large scale IT projects for major retail e-commerce and pharmaceutical customers. Expertise in Cloud Computing (Google Cloud / PCF), Container Technologies, Object Oriented Programming, Full Stack Development using MERN stack, Data Analytics (Python), API development (Java / Python / NodeJS / C#), Data Engineering, SQL / NoSQL, Data Pipelines, UNIX Shell-Scripting, Program/Project Management, Quality Engineering, DevOps/Reliability Engineering, Automation and Tooling.
-  </div>
-</div>
+        <div>
+          <div className="summary">
+            Skilled IT professional with 14+ years of progressive experience in
+            driving and delivering medium to large scale IT projects. Expertise
+            in Cloud Computing (Google Cloud / PCF), Container Technologies,
+            Object Oriented Programming, Full Stack Development using MERN
+            stack, Data Analytics (Python), API development (Java / Python /
+            NodeJS / C#), Data Engineering, SQL / NoSQL, Data Pipelines, UNIX
+            Shell-Scripting, Program/Project Management, Quality Engineering,
+            DevOps/Reliability Engineering, Automation and Tooling.
+          </div>
+        </div>
         <div className="profile">
           <div className="skills" style={{ width: "20%" }}>
             <Highlights />
           </div>
-          <div className="experience container">
+          <div className="experience container" style={{ marginLeft: "25%" }}>
             <Experience
-              tech="Java,Python,Google Cloud(GCP),Cloud Foundry,DB2,Cloud Functions,Pub/Sub,DataFlows,Beam,Docker,SpringBoot,NodeJS,React,NGINX,Cassandra,Redis,TWS,Ab-Initio"
+              tech="Java,Python,Google Cloud(GCP),Cloud Foundry,Cloud Functions,Pub/Sub,Google DataFlows,Apache Beam,Docker,SpringBoot,NodeJS,React,NGINX,DB2,Concourse,Analytical SQLs,Cassandra,Redis,TWS,Ab-Initio,JIRA,Pivotal Tracker"
               company="The Home Depot"
+              logo={thdlogo}
               title="Technical Lead | March 2013 – current"
               details="Build scalable “Serverless data pipelines” using Google DataFlow SDK / Apache Beam SDK to transform and load high-volume data to support new user experiences on www.homedepot.com.
 • Engineer process automation and orchestration using Google cloud storage, cloud functions and pub/sub.
@@ -67,8 +79,9 @@ database to any QA/Dev database to eliminate 4-day full feed processing in lower
             />
 
             <Experience
-              tech="INFORMATICA,Oracle,PL/SQL,Shell Scripts,TWS"
+              tech="INFORMATICA,Oracle,PL/SQL,Shell Scripts,TWS,Automation"
               company="GlaxoSmithKline"
+              logo={gsklogo}
               title="Technical Consultant | January 2011 – March 2012"
               details="• Showcased 65% run time reduction for a weekly data distribution process and brought down the run time from 18 hours to 6.5 hours using PL/SQL bulk collections, recursive sub query factoring, analytical functions, scalar sub query caching and SQL performance tuning. 
           • Developed tools to monitor and identify expensive SQLs using Active Session History for continued performance improvement considerations.
@@ -81,9 +94,10 @@ database to any QA/Dev database to eliminate 4-day full feed processing in lower
           • Designed and developed a PL/SQL solution to build a metrics table which helps to identify the optimum date range for each territory / district to extract the customer data that falls within the defined threshold limit."
             />
             <Experience
-              tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys"
+              tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
               company="PepsiCo-BIS, Valhalla, New York"
               title="Technical Lead | October 2008 – December 2010"
+              logo={pepsilogo}
               details="
         Demonstrated leadership by owning responsibility and delegating tasks and mentoring the team.
 • Served as an application SME.
@@ -93,8 +107,9 @@ SQLs.
 using PowerBuilder 9, PL/SQL Objects, UNIX Shell Scripts and INFORMATICA."
             />
             <Experience
-              tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys"
+              tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
               company="Wipro Technologies (PepsiCo)"
+              logo={wiprologo}
               title="Senior Project Engineer |  June 2005 – October 2008"
               details="• Designed, developed and unit tested production break-fix in PowerBuilder 9 and Oracle PL/SQL.
       • Implemented visual control dashboards to monitor the project progress.

@@ -7,9 +7,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: fixed;
+  width: 80%;
 }
 
-.App-header h2{
+.App-header h2 {
   color: rgb(202, 202, 202);
 }
 
@@ -25,16 +27,17 @@
 .skills {
   /* border: salmon 1px solid; */
   justify-items: center;
-  padding-top: 10px;
+  padding-top: 5px;
+  position: fixed;
 }
 
 .experience {
   /* border: salmon 1px solid; */
   justify-items: center;
-  width: 80%;
 }
 
-.summary{
+.summary {
   color: rgb(85, 85, 85);
-  padding-top: 5px;
+  padding-top: 80px;
+  padding-bottom: 10px;
 }

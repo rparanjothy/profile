@@ -1,16 +1,20 @@
-
+/* 
 .highlight-info{
-  font-size: small
-}
+  padding-top:5px
+} */
 
 .skill-list{
-  /* display: inline; */
-  list-style: none;
+ display: flex;
+ flex-direction: column;
+ flex-grow: inherit
 }
 
-li {
-  padding-bottom: 3px;
+.skill-item{
+  font-size: smaller;
   color: rgb(51, 49, 49);
   font-stretch: expanded;
-
+  padding-bottom: 2px;
+  word-wrap: normal;
+  padding-left: 10px;
 }
+

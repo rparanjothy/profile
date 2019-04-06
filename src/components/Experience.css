@@ -9,7 +9,7 @@
 }
 
 .experience-tech{
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .experience-title {
@@ -27,4 +27,19 @@
   padding-bottom: 5px;
   font-stretch: extra-condensed;
   text-align: justify
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.experience-logo{
+  width:60px;
+  height: 60px;
+  padding-right: 10px;
+}
+.company-info{
+  display:flex;
+  flex-direction: row;
 }
