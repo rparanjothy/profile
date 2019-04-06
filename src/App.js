@@ -84,14 +84,15 @@ database to any QA/Dev database to eliminate 4-day full feed processing in lower
               logo={gsklogo}
               title="Technical Consultant | January 2011 – March 2012"
               details="• Showcased 65% run time reduction for a weekly data distribution process and brought down the run time from 18 hours to 6.5 hours using PL/SQL bulk collections, recursive sub query factoring, analytical functions, scalar sub query caching and SQL performance tuning. 
-          • Developed tools to monitor and identify expensive SQLs using Active Session History for continued performance improvement considerations.
-          • Instrumented numerous PL/SQL code for system performance metrics gathering.
-          • Programmed a solution to track and validate the quality of data migrations from legacy application to a web based Oracle On-Demand CRM application using PL/SQL and UNIX.
-          • Automated the manual data seeding and distribution process for samples, details and vouchers used during new drug launch.
-          • Developed and deployed an automated on-demand UNIX batch process which FTPs massive Rx growth & non retail data to 3rd party service provider’s [Medimedia] external facing system.
-          • Implemented a PL/SQL solution to reduce the licensing cost by deactivating the credentials inactive reps by interfacing with the HR systems.
-          • Developed a PL/SQL solution to achieve enormous data reduction by controlled purging algorithm.
-          • Designed and developed a PL/SQL solution to build a metrics table which helps to identify the optimum date range for each territory / district to extract the customer data that falls within the defined threshold limit."
+              • Developed tools to monitor and identify expensive SQLs using Active Session History for continued performance improvement considerations.
+              • Instrumented numerous PL/SQL code for system performance metrics gathering.
+              • Programmed a solution to track and validate the quality of data migrations from legacy application to a web based Oracle On-Demand CRM application using PL/SQL and UNIX.
+              • Automated the manual data seeding and distribution process for samples, details and vouchers used during new drug launch.
+              • Developed and deployed an automated on-demand UNIX batch process which FTPs massive Rx growth & non retail data to 3rd party service provider’s [Medimedia] external facing system.
+              • Implemented a PL/SQL solution to reduce the licensing cost by deactivating the credentials inactive reps by interfacing with the HR systems.
+              • Developed a PL/SQL solution to achieve enormous data reduction by controlled purging algorithm.
+              • Designed and developed a PL/SQL solution to build a metrics table which helps to identify the optimum date range for each territory / district to extract the customer data that falls within the defined threshold limit.
+"
             />
             <Experience
               tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
@@ -104,7 +105,41 @@ database to any QA/Dev database to eliminate 4-day full feed processing in lower
 • Diagnosed and resolved performance bottlenecks in pricing using multi-threading and tuning complex
 SQLs.
 • Designed, developed, system tested and deployed more than 130 application enhancements and 3 RICEFs
-using PowerBuilder 9, PL/SQL Objects, UNIX Shell Scripts and INFORMATICA."
+using PowerBuilder 9, PL/SQL Objects, UNIX Shell Scripts and INFORMATICA.
+• Played a pivotal role in remotely leading an offshore team of 4 support staff. 
+• Demonstrated leadership by owning responsibility and delegating tasks and mentoring the team.
+• Streamlined the handoff protocols between onshore and offshore teams.
+• Raised the support staffs comfort level by facilitating knowledge sharing sessions.
+• Served as an application SME for interacting with client’s project team and external vendors.
+• Responsible for delivering business requirements through production implementation.
+• Implemented more than 30 scheduled baseline production releases into production with 0 PPD.
+• Participated in application release prioritization meetings with business partners.
+• Submitted project proposals to automate the High Yield Syrup volume processing.
+• Conducted external design and code reviews for enhancements and break-fixes.
+• Oversaw quality assurance of production break-fixes.
+• Showcased system controls during KPMG SOX Audits.
+• Maintained the source code, sign-offs, release notes and support documentation in StarTeam.
+• Documented project status reports to business partners and management.
+• Prepared project cutover plan for production implementation.
+• Coordinated with upstream and downstream teams during system integration.
+• Developed project proposal for business process and system improvements.
+• Invented application monitoring checkpoints and workarounds to ensure business continuity.
+• Diagnosed and resolved performance bottlenecks in pricing by using multi-threading and tuning complex SQLs.
+• Performed database disaster recovery and application restoration.
+• Rewrote a reporting solution as an INFORMATICA ETL mapping from an oracle package.
+• Studied business processes in TIBCO Designer.
+• Implemented daily ticket dashboard to report a quick snapshot of the tickets and their status.  The dashboard was later institutionalized across support projects in July '09.
+• Automated job monitoring scripts to generate error report and thereby reduce offshore teams manual efforts.
+• Introduced On-DEMAND Job for EPM to perform data clean ups / manual upload of data (for YUM payments) without depending on the TSG/ DBA Teams.
+• Implemented claim clean up feature with EPM 5.9.1 release which used to be a manual CAB clean up request.
+• Automated “Projects Vs Dollars” report used during period end closes for preventing SAP idoc failures due to lack of sufficient budgets. 
+• Implemented pre and post migration checklist for EPM Releases.
+• Served as the application SME to interact with external vendors during the course of the project.
+• Acted as an interface between the external development team and the operations support team.
+• Developed an automated process to generate a report with the list of inactive “outlets “which needed to be included in the data conversion scope.
+• Represented business team during the user acceptance testing for the remediated product.
+
+"
             />
             <Experience
               tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
