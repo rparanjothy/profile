@@ -14,7 +14,7 @@
   position: absolute;
   margin-left: 60px;
   word-wrap: break-word;
-  width:400px
+  width:auto
 }
 
 .experience-tech {
@@ -39,7 +39,7 @@
   /* padding-bottom: 5px; */
   /* font-stretch: extra-condensed; */
   text-align: justify;
-  width: 90%;
+  /* width: 90%; */
   /* height: 30vh; */
   /* overflow-y: auto; */
 }
@@ -64,5 +64,6 @@ img {
   /* width: 40vh;  */
   position: absolute; 
   /* position:fixed; */
+  /* z-index: 1; */
 }
 

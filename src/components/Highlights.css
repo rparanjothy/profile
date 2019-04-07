@@ -5,6 +5,8 @@
   flex-wrap: wrap;
   padding-bottom: 10px;
   justify-content: center;
+  margin: auto;
+  width:70%
 }
 
 /* .skill-list{

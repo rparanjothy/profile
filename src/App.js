@@ -34,27 +34,32 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App container">
-        <Navbar color="light" dark className="App-header">
-          <NavbarBrand style={{ fontSize: "30px" }}>
+      <div className="App">
+        <div className="App-header">
+          <div style={{ fontSize: "30px", paddingTop: "2vh" }}>
             <big>R</big>amkumar <big>P</big>aranjothy
-          </NavbarBrand>
-          
-          <div className="App-header container" style={{textAlign:"left"}}>
-            Technical Architect | Lead Data Engineer | Lead Full-Stack Developer
-            | Project Manager
           </div>
-        </Navbar>
+
+          <div className="roles">
+            <div className="roles-inner">Technical Architect </div>
+            <div className="roles-inner">Lead Data Engineer </div>
+            <div className="roles-inner">Lead Full-Stack Developer </div>
+            <div className="roles-inner">Project Manager </div>
+          </div>
+          {/* <div style={{ textAlign: "center" , paddingBottom:"1vh"}}>
+            GitHub LinkedIn  Facebook
+          </div> */}
+        </div>
         <div className="summary">
           Skilled IT professional with 14+ years of progressive experience in
           driving and delivering medium to large scale IT projects. Experienced
           in planning, executing and delivering mission critial, high
           availability, customer facing web applications and APIs.
         </div>
-        <div className="profile">
-          <Highlights className="container" />
+        <Highlights className="container" />
 
-          <div className="experience container">
+        <div className="profile">
+          <div className="experience">
             <Experience
               tech="Java,Python,Google Cloud(GCP),Cloud Foundry,Cloud Functions,Postgres,Pub/Sub,Google DataFlows,Apache Beam,Docker,SpringBoot,NodeJS,React,NGINX,DB2,Concourse,Analytical SQLs,Cassandra,Redis,TWS,Ab-Initio,JIRA,Pivotal Tracker"
               company="The Home Depot"

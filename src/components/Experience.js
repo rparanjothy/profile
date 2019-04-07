@@ -16,7 +16,7 @@ class Experience extends Component {
            
           </div>
           <div className="experience-company">
-            <h3>{this.props.company}</h3>
+            {this.props.company}
           </div>
         </div>
         <div className="experience-title">
