@@ -41,8 +41,9 @@ class App extends Component {
           </div>
 
           <div className="roles">
+            <div className="roles-inner">Cloud Architect</div>
+            <div className="roles-inner">Sr. Data Engineer </div>
             <div className="roles-inner">Technical Architect </div>
-            <div className="roles-inner">Lead Data Engineer </div>
             <div className="roles-inner">Lead Full-Stack Developer </div>
             <div className="roles-inner">Project Manager </div>
           </div>
@@ -56,16 +57,15 @@ class App extends Component {
           in planning, executing and delivering mission critical, high
           availability, customer facing web applications and APIs.
         </div>
-        <Highlights className="container" />
-
-        <div className="profile">
-          <div className="experience">
-            <Experience
-              tech="Java,Python,Google Cloud(GCP),Cloud Foundry,Cloud Functions,Postgres,Pub/Sub,Google DataFlows,Apache Beam,Docker,SpringBoot,NodeJS,React,NGINX,DB2,Concourse,Analytical SQLs,Cassandra,Redis,TWS,Ab-Initio,JIRA,Pivotal Tracker"
-              company="The Home Depot"
-              logo={thdlogo}
-              title="Technical Lead | March 2013 – current"
-              details="Build scalable “Serverless data pipelines” using Google DataFlow SDK / Apache Beam SDK to transform and load high-volume data to support new user experiences on www.homedepot.com.
+          <Highlights className="container" />
+          <div className="profile">
+            <div className="experience">
+              <Experience
+                tech="Java,Python,Google Cloud(GCP),Cloud Foundry,Cloud Functions,Postgres,Pub/Sub,Google DataFlows,Apache Beam,Docker,SpringBoot,NodeJS,React,NGINX,DB2,Concourse,Analytical SQLs,Cassandra,Redis,TWS,Ab-Initio,JIRA,Pivotal Tracker"
+                company="The Home Depot"
+                logo={thdlogo}
+                title="Technical Lead | March 2013 – current"
+                details="Build scalable “Serverless data pipelines” using Google DataFlow SDK / Apache Beam SDK to transform and load high-volume data to support new user experiences on www.homedepot.com.
 • Engineer process automation and orchestration using Google cloud storage, cloud functions and pub/sub.
 • Convert file based ETL batch jobs into cloud-based real time data pipelines using NodeJS, pub/sub and
 Redis.
@@ -103,14 +103,14 @@ and ensure enhanced online shopping experience to customers.
 and abnormal operational conditions.
 • Designed and developed an automated UNIX tool to migrate catalog data for selective SKUs from a source
 database to any QA/Dev database to eliminate 4-day full feed processing in lower life cycle environments."
-            />
+              />
 
-            <Experience
-              tech="INFORMATICA,Oracle,PL/SQL,Shell Scripts,TWS,Automation"
-              company="GlaxoSmithKline"
-              logo={gsklogo}
-              title="Technical Consultant | January 2011 – March 2012"
-              details="• Showcased 65% run time reduction for a weekly data distribution process and brought down the run time from 18 hours to 6.5 hours using PL/SQL bulk collections, recursive sub query factoring, analytical functions, scalar sub query caching and SQL performance tuning. 
+              <Experience
+                tech="INFORMATICA,Oracle,PL/SQL,Shell Scripts,TWS,Automation"
+                company="GlaxoSmithKline"
+                logo={gsklogo}
+                title="Technical Consultant | January 2011 – March 2012"
+                details="• Showcased 65% run time reduction for a weekly data distribution process and brought down the run time from 18 hours to 6.5 hours using PL/SQL bulk collections, recursive sub query factoring, analytical functions, scalar sub query caching and SQL performance tuning. 
               • Developed tools to monitor and identify expensive SQLs using Active Session History for continued performance improvement considerations.
               • Instrumented numerous PL/SQL code for system performance metrics gathering.
               • Programmed a solution to track and validate the quality of data migrations from legacy application to a web based Oracle On-Demand CRM application using PL/SQL and UNIX.
@@ -120,13 +120,13 @@ database to any QA/Dev database to eliminate 4-day full feed processing in lower
               • Developed a PL/SQL solution to achieve enormous data reduction by controlled purging algorithm.
               • Designed and developed a PL/SQL solution to build a metrics table which helps to identify the optimum date range for each territory / district to extract the customer data that falls within the defined threshold limit.
 "
-            />
-            <Experience
-              tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
-              company="PepsiCo-BIS"
-              title="Technical Lead | October 2008 – December 2010"
-              logo={pepsilogo}
-              details="
+              />
+              <Experience
+                tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
+                company="PepsiCo-BIS"
+                title="Technical Lead | October 2008 – December 2010"
+                logo={pepsilogo}
+                details="
         Demonstrated leadership by owning responsibility and delegating tasks and mentoring the team.
 • Served as an application SME.
 • Diagnosed and resolved performance bottlenecks in pricing using multi-threading and tuning complex
@@ -167,23 +167,23 @@ using PowerBuilder 9, PL/SQL Objects, UNIX Shell Scripts and INFORMATICA.
 • Represented business team during the user acceptance testing for the remediated product.
 
 "
-            />
-            <Experience
-              tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
-              company="Wipro Technologies"
-              logo={wiprologo}
-              title="Senior Project Engineer |  June 2005 – October 2008"
-              details="• Designed, developed and unit tested production break-fix in PowerBuilder 9 and Oracle PL/SQL.
+              />
+              <Experience
+                tech="Java,J2EE,PowerBuilder,Pl/Sql,Oracle,UNIX Shell Scripts,autosys,Automation,AMS"
+                company="Wipro Technologies"
+                logo={wiprologo}
+                title="Senior Project Engineer |  June 2005 – October 2008"
+                details="• Designed, developed and unit tested production break-fix in PowerBuilder 9 and Oracle PL/SQL.
       • Implemented visual control dashboards to monitor the project progress.
       • Developed and unit tested a plug-in utility which embeds into the systems PL/SQL code and enables the application support teams to achieve better control over the concentrate syrup’s volume data and the payments and accruals [AP/GL] transactions.
       • Contributed towards the documentation and maintenance of all unit and system testing test cases and test plans.
       • Designed, developed and unit tested PowerBuilder 9 and Oracle PL/SQL objects which ensured proper handshake between legacy mainframe applications and the EPM while transmitting volume, customer and membership feed files.
 • Developed and tested a data recycling engine which recycles the feed records with business validation errors.
   "
-            />
+              />
+            </div>
           </div>
         </div>
-      </div>
     );
   }
 }
