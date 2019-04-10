@@ -47,9 +47,10 @@ class App extends Component {
             <div className="roles-inner">Lead Full-Stack Developer </div>
             <div className="roles-inner">Project Manager </div>
           </div>
-          {/* <div style={{ textAlign: "center" , paddingBottom:"1vh"}}>
-            GitHub LinkedIn  Facebook
-          </div> */}
+
+          <div style={{ textAlign: "center" , paddingBottom:"1vh"}}>
+            <a href="mailto:rparanjothy@gmail.com">rparanjothy@gmail.com</a>
+          </div>
         </div>
         <div className="summary">
           Skilled IT professional with 14+ years of progressive experience in
