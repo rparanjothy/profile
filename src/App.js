@@ -53,7 +53,7 @@ class App extends Component {
         <div className="summary">
           Skilled IT professional with 14+ years of progressive experience in
           driving and delivering medium to large scale IT projects. Experienced
-          in planning, executing and delivering mission critial, high
+          in planning, executing and delivering mission critical, high
           availability, customer facing web applications and APIs.
         </div>
         <Highlights className="container" />
