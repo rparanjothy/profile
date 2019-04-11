@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Contact from "./components/Contact";
 import Highlights from "./components/Highlights";
 import Experience from "./components/Experience";
 import thdlogo from "./thd.svg";
@@ -38,7 +39,7 @@ class App extends Component {
             <div className="roles-inner">Project Manager </div>
           </div>
 
-          <div style={{ textAlign: "center", paddingBottom: "1vh" }}>
+          <div style={{ textAlign: "center", paddingBottom: "1vh" ,paddingTop:"1vh"}}>
             <a href="mailto:rparanjothy@gmail.com">rparanjothy@gmail.com</a>
           </div>
           <div className="social">
