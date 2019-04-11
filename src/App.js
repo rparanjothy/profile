@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import Contact from "./components/Contact";
 import Highlights from "./components/Highlights";
 import Experience from "./components/Experience";
 import thdlogo from "./thd.svg";
