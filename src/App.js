@@ -42,7 +42,7 @@ class App extends Component {
           <div style={{ textAlign: "center", paddingBottom: "1vh" }}>
             <a href="mailto:rparanjothy@gmail.com">rparanjothy@gmail.com</a>
           </div>
-          <div className="social">
+          {/* <div className="social">
             <a href="https://www.linkedin.com/in/ramkumar-paranjothy-33a08317/">
               <i class="fab fa-linkedin social-icon fa-2x" />
             </a>
@@ -52,7 +52,7 @@ class App extends Component {
             <a href="http://rparanjothy.blogspot.com">
               <i class="fab fa-blogger social-icon fa-2x" />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="summary">
           Skilled IT professional with 14+ years of progressive experience in
