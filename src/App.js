@@ -7,15 +7,6 @@ import thdlogo from "./thd.svg";
 import gsklogo from "./logo-gsk.png";
 import pepsilogo from "./pepsico-logo.jpg";
 import wiprologo from "./wipro-logo.png";
-import {
-  Collapse,
-  Navbar,
-  Button,
-  NavbarBrand,
-  Nav,
-  CardBody,
-  Card
-} from "reactstrap";
 
 class App extends Component {
   constructor(props) {
