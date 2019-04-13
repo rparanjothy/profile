@@ -109,7 +109,7 @@ database to any QA/Dev database to eliminate 4-day full feed processing in lower
             />
 
             <Experience
-              tech="INFORMATICA,Oracle,PL/SQL,Shell Scripts,TWS,Automation"
+              tech="INFORMATICA,Oracle,PL/SQL,Data Analytics,Shell Scripts,TWS,Automation,SQL Performance Tuning"
               company="GlaxoSmithKline"
               logo={gsklogo}
               title="Technical Consultant | January 2011 – March 2012"

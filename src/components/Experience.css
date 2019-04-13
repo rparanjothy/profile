@@ -8,7 +8,7 @@
   
 }
 .experience-company {
-  font-size: medium;
+  font-size: 20px;
   padding-bottom: 5px;
   position: absolute;
   margin-left: 60px;
@@ -64,11 +64,9 @@ img {
 .company-info {
   display: flex;
   flex-direction: column;
-  /* background: rgba(55, 255, 255,.9); */
   min-height:60px;
   width:90%;
   position: relative; 
-  /* justify-content: center; */
 
 
 }

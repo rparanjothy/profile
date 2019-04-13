@@ -48,9 +48,9 @@ class Highlights extends Component {
         {this.state.skills
           ? this.state.skills.sort().map(skill => (
               <div className="skill-item">
-                <h6>
+                {/* <h5> */}
                   <Badge color="none">{skill.trim()}</Badge>
-                </h6>
+                {/* </h5> */}
               </div>
             ))
           : null}
