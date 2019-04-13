@@ -36,7 +36,7 @@ class Highlights extends Component {
           "Automation",
           "SpringBoot",
           "Data Engineering"
-          ,"Redis"
+          ,"Redis","React"
         ]
       },
       () => console.log("skills loaded")
