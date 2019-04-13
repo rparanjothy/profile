@@ -4,7 +4,7 @@
   overflow-y: auto;
   margin-top: 1vh;
   /* width:80% */
-  padding-top: 15px;
+  padding-top: 35px;
   
 }
 .experience-company {
@@ -35,17 +35,9 @@
 }
 
 .experience-details {
-  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif; */
   font-size: smaller;
-  /* padding-bottom: 5px; */
-  /* font-stretch: extra-condensed; */
   text-align: justify;
-  /* width:90% */
-
-  /* width: 90%; */
   /* height: 30vh; */
-  /* overflow-y: auto; */
 }
 
 img {
@@ -71,3 +63,12 @@ img {
 
 }
 
+.experience-seemore {
+display: flex;
+position: absolute;
+padding-top: 2px;
+padding-bottom: 2px;
+flex-direction: row;
+align-items: center;
+left: 70%
+}
