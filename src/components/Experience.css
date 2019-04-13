@@ -1,11 +1,10 @@
 .experience-box {
   color: rgb(85, 85, 85);
-  /* padding-top: 500x; */
-  /* margin-left: 15%; */
-  /* margin-right: 5%; */
-  height: 40vh;
+  min-height: 40vh;
   overflow-y: auto;
-  margin-top: 4vh;
+  margin-top: 1vh;
+  /* width:80% */
+  padding-top: 15px;
   
 }
 .experience-company {
@@ -14,11 +13,14 @@
   position: absolute;
   margin-left: 60px;
   word-wrap: break-word;
-  width:auto
+  width:auto;
+  background: white;
+
 }
 
 .experience-tech {
   padding-bottom: 10px;
+
 }
 
 .experience-title {
@@ -26,7 +28,7 @@
     "Lucida Sans", Arial, sans-serif; */
   font-size: 15px;
   padding-bottom: 5px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 
 
   /* font-style: italic; */
@@ -35,10 +37,12 @@
 .experience-details {
   /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif; */
-  font-size: small;
+  font-size: smaller;
   /* padding-bottom: 5px; */
   /* font-stretch: extra-condensed; */
   text-align: justify;
+  /* width:90% */
+
   /* width: 90%; */
   /* height: 30vh; */
   /* overflow-y: auto; */
@@ -54,16 +58,18 @@ img {
   height: 60px;
   padding-right: 10px;
   position: absolute;
+  background: white;
 }
+
 .company-info {
   display: flex;
-  flex-direction: row;
-  background: rgba(255, 255, 255,.9);
-  height:60px;
-  /* width: 80; */
-  /* width: 40vh;  */
-  position: absolute; 
-  /* position:fixed; */
-  /* z-index: 1; */
+  flex-direction: column;
+  /* background: rgba(55, 255, 255,.9); */
+  min-height:60px;
+  width:90%;
+  position: relative; 
+  /* justify-content: center; */
+
+
 }
 

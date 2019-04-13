@@ -37,12 +37,16 @@
 }
 
 .summary {
+  /* background-color: rgba(55, 255, 255, 0.9); */
+
   color: rgb(85, 85, 85);
   padding-top: 40vh;
-  width: 80%;
-  margin: auto;
+  /* width: 80%; */
+  /* margin: auto; */
   padding-bottom: 10px;
   font-size: medium;
+  text-align: justify;
+  /* text-align-last: justify; */
 }
 
 .roles
