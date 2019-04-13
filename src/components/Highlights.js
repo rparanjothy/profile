@@ -35,7 +35,8 @@ class Highlights extends Component {
           "Reliability Engineering",
           "Automation",
           "SpringBoot",
-          "Data Engineering"
+          "Data Engineering",
+          "Redis"
           
         ]
       },
