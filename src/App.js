@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <div style={{ fontSize: "30px", paddingTop: "2vh" }}>
+          <div style={{ fontSize: "25px", paddingTop: "2vh" }}>
             <big>R</big>amkumar <big>P</big>aranjothy
           </div>
 
@@ -54,7 +54,7 @@ class App extends Component {
             </a>
           </div>
         </div>
-        <div className="summary">
+        <div className="summary container">
           Skilled IT professional with 14+ years of progressive experience in
           driving and delivering medium to large scale IT projects. Experienced
           in planning, executing and delivering mission critical, high
