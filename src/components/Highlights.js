@@ -36,7 +36,7 @@ class Highlights extends Component {
           "Automation",
           "SpringBoot",
           "Data Engineering",
-          "Redis","React"
+          "Redis","React","Cloud Migration", "Cloud Native Development", "Data Modeling"
           
         ]
       },
