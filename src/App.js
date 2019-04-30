@@ -68,35 +68,25 @@ class App extends Component {
               company="The Home Depot"
               logo={thdlogo}
               title="Technical Lead | March 2013 – current"
-              details="Build scalable “Serverless data pipelines” using Google DataFlow SDK / Apache Beam SDK to transform and load high-volume data to support new user experiences on www.homedepot.com.
-• Engineer process automation and orchestration using Google cloud storage, cloud functions and pub/sub.
-• Convert file based ETL batch jobs into cloud-based real time data pipelines using NodeJS, pub/sub and
-Redis.
-• Invented a custom in-memory change capture pattern to identify incremental data upserts by leveraging
-Redis instead ETL master files.
-• Implemented a full-stack SPA (Single Page Application) solution using ReactJS, Express, NodeJS,
-Bootstrap, Flex, NGINX and Google Cloud to inquire data from cloud-based Postgres service.
-• Developed a full-stack web application using Python Flask, pandas, ReactJS and gunicorn to perform data
-analytics on item promotions and discounts.
-• Containerized custom React and NodeJS applications / SpringBoot applications/ tools / utilities using
-Docker.
-• Developed several REST APIs using SpringBoot to perform CRUD operations on store pricing data model.
-• Developed and enhanced several Repository, Service, DAO, Model and Controller classes used by DaaS
-APIs built using SpringBoot.
-• Enhanced Service and DAO layers used by DaaS applications (SpringBoot) to support data retrieval from
-Cassandra for new features/dimensions.
-• Implement feature enhancements to microservices using SpringBoot, Embedded Cassandra, TestNG and
-Google BiqQuery.
-• Build tools using pandas, itertools to programmatically generate feeds to onboard data to test new features
-integrations with the proprietary e-commerce platform.
-• Implemented an automated solution to support continuous testing for integrations between domain,
-aggregation and orchestration service layers using Python Flask, MySQL and Pivotal Cloud Foundry.
-• Develop tools using NodeJS to generate and publish payloads to Pub/Sub topics to validate real time
-processing of price, attributes, inventory and image conversion.
-• Designed and developed REST APIs using Python (Flask, Pillow and pandas) for downloading digital assets from source servers, validating image resizing, image resolution validation, image compression and persistence in cloud storage.
-• Simulate production like data using C#, Python and NodeJS Streams (through2, split2) to verify integration with downstream interfacing applications.
-• Develop CI-CD pipelines to build, test and deploy applications to Google Compute Engine instances.
-• Drive Scrum, Sprint grooming, Prioritization and Retro meetings with the team.
+              details="• Design, develop, operate and deploy software applications and microservices using Java, Python and NodeJS into commercial cloud platforms (GCP and PCF).
+              • Converted legacy software modules into autonomous, isolated and scalable cloud native microservices.
+              • Transition legacy ETL modules into cloud native real-time applications by leveraging Google cloud storage, cloud functions (NodeJS), SpringBoot, Redis, Postgres and Google pub/sub.
+              • Created custom Docker images and containers for newly developed cloud native microservices built using SpringBoot / Flask / ExpressJS and React web applications.
+              • Designed and developed complex CI-CD pipelines to clone, build, test and deploy applications to Google Compute Engine instances. 
+              • Invented a custom in-memory change capture pattern to identify incremental data upserts by leveraging Redis for persistence instead ETL master files.
+              • Build scalable “Serverless data pipelines” using Google DataFlow SDK / Apache Beam SDK to transform and load high-volume data to support new user experiences on www.homedepot.com.
+              • Implemented a full-stack SPA (Single Page Application) solution using ReactJS, Express, NodeJS, Bootstrap, Flex, NGINX and Google Cloud to inquire data from cloud-based Postgres service.
+              • Developed a full-stack web application using Python Flask, pandas, ReactJS and gunicorn to perform data analytics on item promotions and discounts.
+              • Developed several REST APIs using SpringBoot to perform CRUD operations on store pricing data model.
+              • Developed and enhanced several Repository, Service, DAO, Model and Controller classes used by DaaS APIs built using SpringBoot.
+              • Enhanced Service and DAO layers used by DaaS applications (SpringBoot) to support data retrieval from Cassandra for new features/dimensions.
+              • Implement feature enhancements to microservices using SpringBoot, Embedded Cassandra, TestNG and Google BigQuery.
+              • Build tools using pandas, itertools to programmatically generate feeds to onboard data to test new features integrations with the proprietary e-commerce platform.
+              • Implemented an automated solution to support continuous testing for integrations between domain, aggregation and orchestration service layers using Python Flask, MySQL and Pivotal Cloud Foundry.
+              • Develop tools using NodeJS to generate and publish payloads to Pub/Sub topics to validate real time processing of price, attributes, inventory and image conversion.
+              • Designed and developed REST APIs using Python (Flask, Pillow and pandas) for downloading digital assets from source servers, validating image resizing, image resolution validation, image compression and persistence in cloud storage. 
+              • Simulate production like data using C#, Python and NodeJS Streams (through2, split2) to verify integration with downstream interfacing applications.
+              • Drive Scrum, Sprint grooming, Prioritization and Retro meetings with the team.
 • Provided leadership skills to execute the project; resolve incidents and mitigate site outage situations.
 • Built numerous analytical reports like Order Gap Report, Top SKU report, Error rate report (Pickup in
 store and Appliance Orders) and Error Rate Alerts using DB2, SQL, ShellScripts and Cron.

@@ -35,9 +35,8 @@ class Highlights extends Component {
           "Reliability Engineering",
           "Automation",
           "SpringBoot",
-          "Data Engineering"
-          ,"Redis","React"
-        ]
+          "Data Engineering",
+          "Redis","React","Cloud Migration", "Cloud Native Development", "Data Modeling"        ]
       },
       () => console.log("skills loaded")
     );
